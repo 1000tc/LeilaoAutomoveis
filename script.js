@@ -551,7 +551,7 @@
       if (isNaN(lance) || fipeVeiculo.value.trim() == '') {
         fipeVeiculo.value = '';}
 
-			if (valorPG<limite){
+			if (valorPG<=limite){
 			textValue.innerText="O valor do automóvel está barato"
       textValue.style.color="#80b918";
     }
@@ -605,746 +605,746 @@ if (modeloVeiculo.value!="") {
 		fipeVeiculo.value="";
 		valorVeiculo();
 		if (modeloVeiculo.value=='A1'){
-			imagem.src="../Autos_img/a1.png"
+			imagem.src="./Autos_img/a1.png"
 			fipe=100000;
 		}
 		else if (modeloVeiculo.value=='A3'){
-			imagem.src="../Autos_img/a3.png"
+			imagem.src="./Autos_img/a3.png"
 			fipe=150000;
 		}
 		else if (modeloVeiculo.value=='A4'){
-			imagem.src="../Autos_img/a4.png"
+			imagem.src="./Autos_img/a4.png"
 			fipe=150000;
 		}
 		else if (modeloVeiculo.value=='A5'){
-			imagem.src="../Autos_img/a5.png"
+			imagem.src="./Autos_img/a5.png"
 			fipe=150000;
 		}
 		else if (modeloVeiculo.value=='A6'){
-			imagem.src="../Autos_img/a6.png"
+			imagem.src="./Autos_img/a6.png"
 			fipe=120000;
 		}
 		else if (modeloVeiculo.value=='A7'){
-			imagem.src="../Autos_img/a7.png"
+			imagem.src="./Autos_img/a7.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='A8'){
-			imagem.src="../Autos_img/a8.png"
+			imagem.src="./Autos_img/a8.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Q2'){
-			imagem.src="../Autos_img/q2.png"
+			imagem.src="./Autos_img/q2.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Q3'){
-			imagem.src="../Autos_img/q3.png"
+			imagem.src="./Autos_img/q3.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Q5'){
-			imagem.src="../Autos_img/q5.jpg"
+			imagem.src="./Autos_img/q5.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Q7'){
-			imagem.src="../Autos_img/q7.png"
+			imagem.src="./Autos_img/q7.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Q8'){
-			imagem.src="../Autos_img/q8.png"
+			imagem.src="./Autos_img/q8.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='TT'){
-			imagem.src="../Autos_img/tt.png"
+			imagem.src="./Autos_img/tt.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 1'){
-			imagem.src="../Autos_img/serie1.png"
+			imagem.src="./Autos_img/serie1.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 2'){
-			imagem.src="../Autos_img/serie2.png"
+			imagem.src="./Autos_img/serie2.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 3'){
-			imagem.src="../Autos_img/serie3.png"
+			imagem.src="./Autos_img/serie3.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 4'){
-			imagem.src="../Autos_img/serie4.png"
+			imagem.src="./Autos_img/serie4.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 5'){
-			imagem.src="../Autos_img/serie5.png"
+			imagem.src="./Autos_img/serie5.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 6'){
-			imagem.src="../Autos_img/serie6.jpg"
+			imagem.src="./Autos_img/serie6.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Série 7'){
-			imagem.src="../Autos_img/serie7.png"
+			imagem.src="./Autos_img/serie7.png"
 			fipe=170000;
 		}
 	
 		else if (modeloVeiculo.value=='X1'){
-			imagem.src="../Autos_img/x1.png"
+			imagem.src="./Autos_img/x1.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X2'){
-			imagem.src="../Autos_img/x2.png"
+			imagem.src="./Autos_img/x2.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X3'){
-			imagem.src="../Autos_img/x3.png"
+			imagem.src="./Autos_img/x3.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X4'){
-			imagem.src="../Autos_img/x4.png"
+			imagem.src="./Autos_img/x4.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X5'){
-			imagem.src="../Autos_img/x5.png"
+			imagem.src="./Autos_img/x5.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X6'){
-			imagem.src="../Autos_img/x6.png"
+			imagem.src="./Autos_img/x6.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='X7'){
-			imagem.src="../Autos_img/x7.png"
+			imagem.src="./Autos_img/x7.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Z4'){
-			imagem.src="../Autos_img/z4.png"
+			imagem.src="./Autos_img/z4.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Onix'){
-			imagem.src="../Autos_img/onix.png"
+			imagem.src="./Autos_img/onix.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Prisma'){
-			imagem.src="../Autos_img/prisma.png"
+			imagem.src="./Autos_img/prisma.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Cruze'){
-			imagem.src="../Autos_img/cruze.png"
+			imagem.src="./Autos_img/cruze.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Spin'){
-			imagem.src="../Autos_img/spin.png"
+			imagem.src="./Autos_img/spin.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Tracker'){
-			imagem.src="../Autos_img/tracker.png"
+			imagem.src="./Autos_img/tracker.png"
 			fipe=170000;
 		}
 	
 		else if (modeloVeiculo.value=='S10'){
-			imagem.src="../Autos_img/s10.png"
+			imagem.src="./Autos_img/s10.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Camaro'){
-			imagem.src="../Autos_img/camaro.png"
+			imagem.src="./Autos_img/camaro.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ka'){
-			imagem.src="../Autos_img/ka.png"
+			imagem.src="./Autos_img/ka.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fiesta'){
-			imagem.src="../Autos_img/fiesta.png"
+			imagem.src="./Autos_img/fiesta.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Focus'){
-			imagem.src="../Autos_img/focus.png"
+			imagem.src="./Autos_img/focus.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fusion'){
-			imagem.src="../Autos_img/fusion.png"
+			imagem.src="./Autos_img/fusion.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='EcoSport'){
-			imagem.src="../Autos_img/ecosport.png"
+			imagem.src="./Autos_img/ecosport.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ranger'){
-			imagem.src="../Autos_img/ranger.png"
+			imagem.src="./Autos_img/ranger.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Mustang'){
-			imagem.src="../Autos_img/mustang.png"
+			imagem.src="./Autos_img/mustang.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Civic'){
-			imagem.src="../Autos_img/civic.png"
+			imagem.src="./Autos_img/civic.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='City'){
-			imagem.src="../Autos_img/city.jpg"
+			imagem.src="./Autos_img/city.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fit'){
-			imagem.src="../Autos_img/fit.png"
+			imagem.src="./Autos_img/fit.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='HR-V'){
-			imagem.src="../Autos_img/hrv.png"
+			imagem.src="./Autos_img/hrv.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='WR-V'){
-			imagem.src="../Autos_img/wrv.png"
+			imagem.src="./Autos_img/wrv.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='CR-V'){
-			imagem.src="../Autos_img/crv.png"
+			imagem.src="./Autos_img/crv.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Accord'){
-			imagem.src="../Autos_img/accord.png"
+			imagem.src="./Autos_img/accord.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='HB20'){
-			imagem.src="../Autos_img/hb20.png"
+			imagem.src="./Autos_img/hb20.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Creta'){
-			imagem.src="../Autos_img/creta.png"
+			imagem.src="./Autos_img/creta.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='i20'){
-			imagem.src="../Autos_img/i20.png"
+			imagem.src="./Autos_img/i20.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='i30'){
-			imagem.src="../Autos_img/i30.png"
+			imagem.src="./Autos_img/i30.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Tucson'){
-			imagem.src="../Autos_img/tucson.png"
+			imagem.src="./Autos_img/tucson.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Santa Fe'){
-			imagem.src="../Autos_img/santafe.png"
+			imagem.src="./Autos_img/santafe.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Veloster'){
-			imagem.src="../Autos_img/veloster.png"
+			imagem.src="./Autos_img/veloster.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Classe A'){
-			imagem.src="../Autos_img/classeA.png"
+			imagem.src="./Autos_img/classeA.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Classe C'){
-			imagem.src="../Autos_img/classeC.png"
+			imagem.src="./Autos_img/classeC.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Classe E'){
-			imagem.src="../Autos_img/classeE.png"
+			imagem.src="./Autos_img/classeE.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Classe S'){
-			imagem.src="../Autos_img/classeS.png"
+			imagem.src="./Autos_img/classeS.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GLA'){
-			imagem.src="../Autos_img/gla.png"
+			imagem.src="./Autos_img/gla.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GLC'){
-			imagem.src="../Autos_img/glc.jpg"
+			imagem.src="./Autos_img/glc.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GLE'){
-			imagem.src="../Autos_img/gle.png"
+			imagem.src="./Autos_img/gle.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GLS'){
-			imagem.src="../Autos_img/gls.png"
+			imagem.src="./Autos_img/gls.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='March'){
-			imagem.src="../Autos_img/march.jpg"
+			imagem.src="./Autos_img/march.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Versa'){
-			imagem.src="../Autos_img/versa.png"
+			imagem.src="./Autos_img/versa.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Sentra'){
-			imagem.src="../Autos_img/sentra.jpg"
+			imagem.src="./Autos_img/sentra.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Kicks'){
-			imagem.src="../Autos_img/kicks.png"
+			imagem.src="./Autos_img/kicks.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Maxima'){
-			imagem.src="../Autos_img/maxima.jpg"
+			imagem.src="./Autos_img/maxima.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Altima'){
-			imagem.src="../Autos_img/altima.png"
+			imagem.src="./Autos_img/altima.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Rogue'){
-			imagem.src="../Autos_img/rogue.jpg"
+			imagem.src="./Autos_img/rogue.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Murano'){
-			imagem.src="../Autos_img/murano.png"
+			imagem.src="./Autos_img/murano.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Corolla'){
-			imagem.src="../Autos_img/corolla.webp"
+			imagem.src="./Autos_img/corolla.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Camry'){
-			imagem.src="../Autos_img/camry.png"
+			imagem.src="./Autos_img/camry.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Yaris'){
-			imagem.src="../Autos_img/yaris.png"
+			imagem.src="./Autos_img/yaris.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Rav4'){
-			imagem.src="../Autos_img/rav4.png"
+			imagem.src="./Autos_img/rav4.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Hilux'){
-			imagem.src="../Autos_img/hilux.png"
+			imagem.src="./Autos_img/hilux.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Prius'){
-			imagem.src="../Autos_img/prius.png"
+			imagem.src="./Autos_img/prius.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='C-HR'){
-			imagem.src="../Autos_img/chr.jpg"
+			imagem.src="./Autos_img/chr.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Land Cruiser'){
-			imagem.src="../Autos_img/landcruiser.png"
+			imagem.src="./Autos_img/landcruiser.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Gol'){
-			imagem.src="../Autos_img/gol.png"
+			imagem.src="./Autos_img/gol.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fox'){
-			imagem.src="../Autos_img/fox.png"
+			imagem.src="./Autos_img/fox.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Polo'){
-			imagem.src="../Autos_img/polo.png"
+			imagem.src="./Autos_img/polo.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Virtus'){
-			imagem.src="../Autos_img/virtus.jpg"
+			imagem.src="./Autos_img/virtus.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Jetta'){
-			imagem.src="../Autos_img/jetta.jpg"
+			imagem.src="./Autos_img/jetta.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Golf'){
-			imagem.src="../Autos_img/golf.png"
+			imagem.src="./Autos_img/golf.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='T-Cross'){
-			imagem.src="../Autos_img/tcross.png"
+			imagem.src="./Autos_img/tcross.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Tiguan'){
-			imagem.src="../Autos_img/tiguan.png"
+			imagem.src="./Autos_img/tiguan.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Saveiro'){
-			imagem.src="../Autos_img/saveiro.jpg"
+			imagem.src="./Autos_img/saveiro.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Amarok'){
-			imagem.src="../Autos_img/amarok.png"
+			imagem.src="./Autos_img/amarok.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='CG'){
-			imagem.src="../Autos_img/cg.jpg"
+			imagem.src="./Autos_img/cg.jpg"
 			fipe=150000;
 		}
 		else if (modeloVeiculo.value=='CB'){
-			imagem.src="../Autos_img/cb.webp"
+			imagem.src="./Autos_img/cb.webp"
 			fipe=120000;
 		}
 		else if (modeloVeiculo.value=='XR'){
-			imagem.src="../Autos_img/xr.jpg"
+			imagem.src="./Autos_img/xr.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Bros'){
-			imagem.src="../Autos_img/bros.webp"
+			imagem.src="./Autos_img/bros.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Biz'){
-			imagem.src="../Autos_img/biz.webp"
+			imagem.src="./Autos_img/biz.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='PCX'){
-			imagem.src="../Autos_img/pcx.webp"
+			imagem.src="./Autos_img/pcx.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='CBR'){
-			imagem.src="../Autos_img/cbr.webp"
+			imagem.src="./Autos_img/cbr.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='NXR'){
-			imagem.src="../Autos_img/nxr.webp"
+			imagem.src="./Autos_img/nxr.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='CRF'){
-			imagem.src="../Autos_img/crf.jpg"
+			imagem.src="./Autos_img/crf.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='XRE'){
-			imagem.src="../Autos_img/xre.webp"
+			imagem.src="./Autos_img/xre.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='YZF R1'){
-			imagem.src="../Autos_img/r1.jpg"
+			imagem.src="./Autos_img/r1.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='YZF R6'){
-			imagem.src="../Autos_img/r6.jpg"
+			imagem.src="./Autos_img/r6.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='MT-07'){
-			imagem.src="../Autos_img/mt07.jpg"
+			imagem.src="./Autos_img/mt07.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='MT-09'){
-			imagem.src="../Autos_img/mt09.jpg"
+			imagem.src="./Autos_img/mt09.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fazer 250'){
-			imagem.src="../Autos_img/fazer250.webp"
+			imagem.src="./Autos_img/fazer250.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='XTZ 250 Ténéré'){
-			imagem.src="../Autos_img/xtz250.jpg"
+			imagem.src="./Autos_img/xtz250.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ténéré'){
-			imagem.src="../Autos_img/tenere.jpg"
+			imagem.src="./Autos_img/tenere.jpg"
 			fipe=170000;
 		}
 	
 		else if (modeloVeiculo.value=='NMax'){
-			imagem.src="../Autos_img/nmax.jpg"
+			imagem.src="./Autos_img/nmax.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='MT-03'){
-			imagem.src="../Autos_img/mt03.jpg"
+			imagem.src="./Autos_img/mt03.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='YZ 125'){
-			imagem.src="../Autos_img/yz125.jpg"
+			imagem.src="./Autos_img/yz125.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='YZ 250'){
-			imagem.src="../Autos_img/yz250.webp"
+			imagem.src="./Autos_img/yz250.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GSX-R1000'){
-			imagem.src="../Autos_img/gsxr1000.jpg"
+			imagem.src="./Autos_img/gsxr1000.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GSX-R750'){
-			imagem.src="../Autos_img/gsxr750.webp"
+			imagem.src="./Autos_img/gsxr750.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='V-Strom 650'){
-			imagem.src="../Autos_img/vstrom650.jpg"
+			imagem.src="./Autos_img/vstrom650.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Hayabusa'){
-			imagem.src="../Autos_img/hayabusa.webp"
+			imagem.src="./Autos_img/hayabusa.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GSX-S750'){
-			imagem.src="../Autos_img/gsxs750.png"
+			imagem.src="./Autos_img/gsxs750.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Burgman 400'){
-			imagem.src="../Autos_img/burgman400.jpg"
+			imagem.src="./Autos_img/burgman400.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='SV650'){
-			imagem.src="../Autos_img/sv650.jpg"
+			imagem.src="./Autos_img/sv650.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='GSX-S1000'){
-			imagem.src="../Autos_img/s1000.jpg"
+			imagem.src="./Autos_img/s1000.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='DR-Z400SM'){
-			imagem.src="../Autos_img/z400sm.jpg"
+			imagem.src="./Autos_img/z400sm.jpg"
 			fipe=170000;
 		}
 	
 		else if (modeloVeiculo.value=='RM-Z450'){
-			imagem.src="../Autos_img/rmz450.jpg"
+			imagem.src="./Autos_img/rmz450.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ninja 400'){
-			imagem.src="../Autos_img/ninja400.png"
+			imagem.src="./Autos_img/ninja400.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ninja ZX-6R'){
-			imagem.src="../Autos_img/zx6r.jpg"
+			imagem.src="./Autos_img/zx6r.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Z900'){
-			imagem.src="../Autos_img/z900.jpg"
+			imagem.src="./Autos_img/z900.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ninja 1000SX'){
-			imagem.src="../Autos_img/1000sx.jpg"
+			imagem.src="./Autos_img/1000sx.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Versys 650'){
-			imagem.src="../Autos_img/versys650.jpg"
+			imagem.src="./Autos_img/versys650.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Vulcan S'){
-			imagem.src="../Autos_img/vulcanS.jpg"
+			imagem.src="./Autos_img/vulcanS.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Z650'){
-			imagem.src="../Autos_img/z650.jpg"
+			imagem.src="./Autos_img/z650.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ninja ZX-10R'){
-			imagem.src="../Autos_img/zx10r.png"
+			imagem.src="./Autos_img/zx10r.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Z1000'){
-			imagem.src="../Autos_img/z1000.jpg"
+			imagem.src="./Autos_img/z1000.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Z H2'){
-			imagem.src="../Autos_img/zh2.jpg"
+			imagem.src="./Autos_img/zh2.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Sportster Iron 883'){
-			imagem.src="../Autos_img/iron883.webp"
+			imagem.src="./Autos_img/iron883.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Street Bob'){
-			imagem.src="../Autos_img/streetbob.webp"
+			imagem.src="./Autos_img/streetbob.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Softail Fat Boy'){
-			imagem.src="../Autos_img/fatboy.webp"
+			imagem.src="./Autos_img/fatboy.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Road Glide'){
-			imagem.src="../Autos_img/roadglide.jpg"
+			imagem.src="./Autos_img/roadglide.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Fat Bob'){
-			imagem.src="../Autos_img/fatbob.webp"
+			imagem.src="./Autos_img/fatbob.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='CVO Limited'){
-			imagem.src="../Autos_img/CVOlimited.jpg"
+			imagem.src="./Autos_img/CVOlimited.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Street Glide'){
-			imagem.src="../Autos_img/Streetglide.jpg"
+			imagem.src="./Autos_img/Streetglide.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Ultra Limited'){
-			imagem.src="../Autos_img/ultraLimited.webp"
+			imagem.src="./Autos_img/ultraLimited.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Breakout'){
-			imagem.src="../Autos_img/breakout.jpg"
+			imagem.src="./Autos_img/breakout.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Heritage Classic'){
-			imagem.src="../Autos_img/heritage.webp"
+			imagem.src="./Autos_img/heritage.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='S 1000 RR'){
-			imagem.src="../Autos_img/s1000rr.jpg"
+			imagem.src="./Autos_img/s1000rr.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='R 1250 GS'){
-			imagem.src="../Autos_img/r1250gs.webp"
+			imagem.src="./Autos_img/r1250gs.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='F 850 GS'){
-			imagem.src="../Autos_img/f850gs.webp"
+			imagem.src="./Autos_img/f850gs.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='G 310 GS'){
-			imagem.src="../Autos_img/g310gs.webp"
+			imagem.src="./Autos_img/g310gs.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='R 1200 GS'){
-			imagem.src="../Autos_img/r1200gs.jpg"
+			imagem.src="./Autos_img/r1200gs.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='F 900 R'){
-			imagem.src="../Autos_img/f900r.jpg"
+			imagem.src="./Autos_img/f900r.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='G 310 R'){
-			imagem.src="../Autos_img/g310r.jpg"
+			imagem.src="./Autos_img/g310r.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='K 1600 GT'){
-			imagem.src="../Autos_img/k1600gt.jpg"
+			imagem.src="./Autos_img/k1600gt.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='S 1000 XR'){
-			imagem.src="../Autos_img/s1000xr.webp"
+			imagem.src="./Autos_img/s1000xr.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='F 750 GS'){
-			imagem.src="../Autos_img/f750gs.webp"
+			imagem.src="./Autos_img/f750gs.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Panigale V4'){
-			imagem.src="../Autos_img/panigalev4.jpg"
+			imagem.src="./Autos_img/panigalev4.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Monster'){
-			imagem.src="../Autos_img/monster.jpg"
+			imagem.src="./Autos_img/monster.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Diavel'){
-			imagem.src="../Autos_img/diavel.jpg"
+			imagem.src="./Autos_img/diavel.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Multistrada'){
-			imagem.src="../Autos_img/multistrada.jpg"
+			imagem.src="./Autos_img/multistrada.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='SuperSport'){
-			imagem.src="../Autos_img/Supersport.jpg"
+			imagem.src="./Autos_img/Supersport.jpg"
 			fipe=170000;
 		}
 		else if (marcaVeiculo.value=='ducati' && modeloVeiculo.value=='Scrambler'){
-			imagem.src="../Autos_img/scramblerDucati.jpg"
+			imagem.src="./Autos_img/scramblerDucati.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Hypermotard'){
-			imagem.src="../Autos_img/hypermotard.webp"
+			imagem.src="./Autos_img/hypermotard.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Streetfighter'){
-			imagem.src="../Autos_img/streetfighter.webp"
+			imagem.src="./Autos_img/streetfighter.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Bonneville'){
-			imagem.src="../Autos_img/bonneville.webp"
+			imagem.src="./Autos_img/bonneville.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Tiger'){
-			imagem.src="../Autos_img/tiger.png"
+			imagem.src="./Autos_img/tiger.png"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Speed Triple'){
-			imagem.src="../Autos_img/speedtriple.webp"
+			imagem.src="./Autos_img/speedtriple.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Street Triple'){
-			imagem.src="../Autos_img/streettriple.jpg"
+			imagem.src="./Autos_img/streettriple.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Thruxton'){
-			imagem.src="../Autos_img/thruxton.jpg"
+			imagem.src="./Autos_img/thruxton.jpg"
 			fipe=170000;
 		}
 		else if (marcaVeiculo.value=='triumph' && modeloVeiculo.value=='Scrambler'){
-			imagem.src="../Autos_img/scramblerTriumph.jpg"
+			imagem.src="./Autos_img/scramblerTriumph.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Rocket 3'){
-			imagem.src="../Autos_img/rocket3.jpg"
+			imagem.src="./Autos_img/rocket3.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Daytona'){
-			imagem.src="../Autos_img/daytona.jpg"
+			imagem.src="./Autos_img/daytona.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Duke'){
-			imagem.src="../Autos_img/duke.jpg"
+			imagem.src="./Autos_img/duke.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Adventure'){
-			imagem.src="../Autos_img/adventure.jpg"
+			imagem.src="./Autos_img/adventure.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='RC'){
-			imagem.src="../Autos_img/rc.webp"
+			imagem.src="./Autos_img/rc.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='SX'){
-			imagem.src="../Autos_img/sx.jpg"
+			imagem.src="./Autos_img/sx.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='EXC'){
-			imagem.src="../Autos_img/exc.jpg"
+			imagem.src="./Autos_img/exc.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Freeride'){
-			imagem.src="../Autos_img/freeride.jpg"
+			imagem.src="./Autos_img/freeride.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Supermoto'){
-			imagem.src="../Autos_img/supermoto.jpg"
+			imagem.src="./Autos_img/supermoto.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Enduro'){
-			imagem.src="../Autos_img/enduro.jpg"
+			imagem.src="./Autos_img/enduro.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='SMC'){
-			imagem.src="../Autos_img/smc.jpg"
+			imagem.src="./Autos_img/smc.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='RSV4'){
-			imagem.src="../Autos_img/rsv4.jpeg"
+			imagem.src="./Autos_img/rsv4.jpeg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Tuono'){
-			imagem.src="../Autos_img/tuono.jpg"
+			imagem.src="./Autos_img/tuono.jpg"
 			fipe=170000;
 		}else if (modeloVeiculo.value=='Dorsoduro'){
-			imagem.src="../Autos_img/dorsoduro.jpg"
+			imagem.src="./Autos_img/dorsoduro.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Shiver'){
-			imagem.src="../Autos_img/shiver.jpg"
+			imagem.src="./Autos_img/shiver.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='RX'){
-			imagem.src="../Autos_img/rx.jpg"
+			imagem.src="./Autos_img/rx.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='SX'){
-			imagem.src="../Autos_img/sx.jpg"
+			imagem.src="./Autos_img/sx.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='RS'){
-			imagem.src="../Autos_img/rs.jpg"
+			imagem.src="./Autos_img/rs.jpg"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Caponord'){
-			imagem.src="../Autos_img/caponord.webp"
+			imagem.src="./Autos_img/caponord.webp"
 			fipe=170000;
 		}
 		else if (modeloVeiculo.value=='Mana'){
-			imagem.src="../Autos_img/mana.jpg"
+			imagem.src="./Autos_img/mana.jpg"
 			fipe=170000;
 		}
 			else{fipe=50000;}
