@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Leilão automoveis</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+	<nav ID="titulo"><h1>Simulador de Leilão de Automóveis</h1></nav>
+	<label for ="tipoVeiculo" class="espaco2">	Tipo do veiculo:	</label>
+	<select id="tipoVeiculo" class="espaco2">
+		<option value="" disabled selected>Selecione um tipo</option>
+		<option value="carro">Carro</option>
+		<option value="moto">Moto</option>
+		<option value="caminhao">Caminhão</option>
+		
+	</select>
+	
+
+	<br>
+
+	<label for ="marcaVeiculo" class="espaco2">Marca:</label>
+	<select id="marcaVeiculo" class="espaco2" disabled>
+			<option value="" disabled selected>Selecione uma marca</option>
+		</select>
+		<div id="imgValue">
+		<figure id="carro"></figure>
+		<h2 id="textValue" class="espaco2">O valor do automóvel está: </h2>
+		</div>
+
+		<br>
+
+		<label for ="modeloVeiculo" class="espaco2"> Modelo: </label>
+	<select id="modeloVeiculo" class="espaco2" disabled>
+		<option value="" disabled selected>Selecione um modelo</option>
+	</select>
+
+	<H3 id="fipeTxt" class="espaco2">Fipe do veiculo: </H3>
+
+	<label for ="fipeVeiculo" class="espaco2"> Lance no veículo: </label>
+
+		<input id="fipeVeiculo" class="espaco2"  type="text" oninput="valorVeiculo()">
+
+	<P id="comissao" class="espaco2">Comissão do leiloeiro: R$</P>
+
+	<h3 id="diferencaTxt" class="espaco2">Diferença da Fipe: </h3>
+
+
+	<script src="script.js"></script>
+	</div>
+</html>
