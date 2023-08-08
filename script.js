@@ -567,20 +567,20 @@
 			if (!isNaN(lance)) {
 				fipeTxt.innerHTML="Fipe do veiculo: <span style='color: #4361ee;'>R$ "+(fipe).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })+"</span>";
 
-				comissao.innerHTML = "Comissão do leiloeiro: <span style='color:#fcefb4'>R$ "+comissaoLeiloeiro.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })+"</span";
+				comissao.innerHTML = "Comissão do leiloeiro: <span style='color:#ff7b00'>R$ "+comissaoLeiloeiro.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })+"</span";
 				if (diferencaPercentual>=50){
-					diferencaTxt.innerHTML = "Diferença da Fipe: R$" + (diferenca).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "<br> Ideal acima de 30%: <span style='color: #0096c7;'>" + diferencaPercentual + "%</span>";
+					diferencaTxt.innerHTML = "Diferença da Fipe: R$" + (diferenca).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "<br> Ideal acima de 30%: <span style='color: #4361ee;'>" + diferencaPercentual + "%</span>";
 				}
 				else if (diferencaPercentual>=30){
-					diferencaTxt.innerHTML = "Diferença da Fipe: R$" + (diferenca).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "<br> Ideal acima de 30%: <span style='color:yellow;'>" + diferencaPercentual + "%</span>";
+					diferencaTxt.innerHTML = "Diferença da Fipe: R$" + (diferenca).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "<br> Ideal acima de 30%: <span style='color:#ff7b00;'>" + diferencaPercentual + "%</span>";
 				}
 				else{
 					diferencaTxt.innerHTML = "Diferença da Fipe: R$" + (diferenca).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "<br> Ideal acima de 30%: <span style='color:red;'>" + diferencaPercentual + "%</span>";
 				}
 				
 			} else {
-				comissao.innerText = "Comissão do leiloeiro: R$";
-				diferencaTxt.innerText="Diferença da Fipe:"
+				comissao.innerText = "Comissão do leiloeiro:";
+				diferencaTxt.innerText="Diferença da Fipe: "
 			}
 		}
 		
@@ -1386,7 +1386,7 @@ else if (modeloVeiculo.value == 'Amarok') {
 	}
 	
 			else{fipe=50000;}
-			fipeTxt.innerHTML="Fipe do veiculo: R$<span style='color: #168aad;'> "+(fipe).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })+"</span>";
+			fipeTxt.innerHTML="Fipe do veiculo: R$<span style='color: #0353a4;'> "+(fipe).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })+"</span>";
 		;
 }}
 		
